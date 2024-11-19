@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Popular Food Recipes</h1>
+      <h1>Harini Food Recipes</h1>
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
       <div className="recipe-container">
